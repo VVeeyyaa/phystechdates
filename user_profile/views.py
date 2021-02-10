@@ -6,5 +6,8 @@ def index(request):
     }
     return render(request, 'main/index.html', data)
 
+def profile(request):
+    return render(request, 'main/profile.html')
+
 def drink(request):
     return render(request, 'main/drink.html')

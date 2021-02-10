@@ -14,14 +14,14 @@
         <header class="header">
             <div class="container">
                 <div class="header__row">
-                    <a href="home" class="header__logo">Физтех.Знакомства</a>
+                    <a href="{% url 'home' %}" class="header__logo">Физтех.Знакомства</a>
                     <div class="header__menu menu">
                         <div class="menu__icon icon-menu">
                             <span></span>
                         </div>
                         <nav class="menu__body">
                             <ul class="menu__list">
-                                <li class="menu__photo"><a href="profile"><img src="{% static 'main/img/s7x0gJXrbC8.jpg' %}"></a></li>
+                                <li class="menu__photo"><a href="{% url 'profile' %}"><img src="{% static 'main/img/s7x0gJXrbC8.jpg' %}"></a></li>
                             </ul>
                         </nav>
                     </div>
